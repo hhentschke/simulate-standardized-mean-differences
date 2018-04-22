@@ -33,6 +33,7 @@ The code results from discussions (and a paper-in-progress) with Rainer Duesing 
 ## Acknowledgements:
 * Function [fast_corr](https://de.mathworks.com/matlabcentral/fileexchange/63082-fast-corr) by Elliot Layden
 * Function [progressbar](https://de.mathworks.com/matlabcentral/fileexchange/6922-progressbar) by Steve Hoelzer
+* Function pvpmod by Ulrich Egert
 
 ## Limitations
 * documentation is sparse
