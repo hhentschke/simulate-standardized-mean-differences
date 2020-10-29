@@ -37,5 +37,4 @@ The code results from discussions (and a paper-in-progress) with Rainer Duesing 
 
 ## Limitations
 * documentation is sparse
-* functions for Glass's delta have not yet been thoroughly tested
 * so far, very few safeguards against user interaction with the GUI that is outside the envisaged workflow (e.g. changing plot parameters before loading data will produce an error)

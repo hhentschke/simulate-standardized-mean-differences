@@ -17,4 +17,4 @@ function ci=hedgesg_dep_ci_standard(es,s1,s2,n1,n2,xyCorr,xyCov,tCrit,zCrit,ncPa
 % - se
 se=sqrt((2-2*xyCorr)./n1 + es.^2./(2*n1-2));
 % - ci
-ci=cat(4,es-zCrit.*se,es+zCrit.*se);
+ci=cat(4,es-tCrit.*se,es+tCrit.*se);

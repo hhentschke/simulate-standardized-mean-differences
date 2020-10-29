@@ -23,7 +23,6 @@ switch simDs.tag
   case 'hedgesg'
     simDs.m(:,1,:)=simDs.m(:,2,:)+simDs.effectSize'.*permute(sqrt(mean(simDs.s,2)),[2 3 1]);
   case 'glassdelta'
-    % §§§ check
     simDs.m(:,1,:)=simDs.m(:,2,:)+simDs.effectSize'.*permute(simDs.sd(:,1),[2 3 1]);
   otherwise
     error('bad simDs.tag')

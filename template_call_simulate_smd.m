@@ -10,9 +10,10 @@ simDs.tag='hedgesg';
 % handle to function computing smd
 simDs.smdFun=@hedgesg_dep;
 % types of confidence intervals (CI); .fun must be a function handle
-% NOTES: i) functions computing CI via noncentral distribution
-% functions MUST contain the char array 'noncentral'
-% ii) computng noncentral CIs takes an awfully long time
+% NOTES: 
+% i) functions computing CI via noncentral distribution functions MUST
+% contain the char array 'noncentral'
+% ii) computing noncentral CIs takes an awfully long time
 simDs.ciFormula=[];
 simDs.ciFormula.fun=@hedgesg_dep_ci_standard;
 simDs.ciFormula.name='traditional';
